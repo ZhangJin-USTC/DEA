@@ -1,0 +1,107 @@
+,0,1
+0,China,Taiwan*
+1,China,Thailand
+2,Vietnam,Thailand
+3,Taiwan*,Thailand
+4,Taiwan*,"Korea, South"
+5,Thailand,Malaysia
+6,"Korea, South",Nepal
+7,Malaysia,Nepal
+8,Vietnam,Singapore
+9,Taiwan*,Singapore
+10,Thailand,Singapore
+11,"Korea, South",Singapore
+12,Malaysia,Singapore
+13,Nepal,Singapore
+14,Vietnam,Japan
+15,Taiwan*,Cambodia
+16,Vietnam,Sri Lanka
+17,Vietnam,United Arab Emirates
+18,Taiwan*,United Arab Emirates
+19,Thailand,United Arab Emirates
+20,Nepal,United Arab Emirates
+21,Cambodia,United Arab Emirates
+22,Vietnam,Philippines
+23,Thailand,Philippines
+24,"Korea, South",Philippines
+25,Japan,Philippines
+26,Thailand,India
+27,"Korea, South",India
+28,Japan,India
+29,Cambodia,India
+30,Philippines,India
+31,China,Iran
+32,"Korea, South",Iran
+33,Malaysia,Iran
+34,Nepal,Iran
+35,Cambodia,Iran
+36,United Arab Emirates,Iran
+37,"Korea, South",Lebanon
+38,Sri Lanka,Lebanon
+39,India,Lebanon
+40,Nepal,Israel
+41,United Arab Emirates,Afghanistan
+42,Iran,Afghanistan
+43,"Korea, South",Iraq
+44,Malaysia,Iraq
+45,Nepal,Iraq
+46,Cambodia,Iraq
+47,Sri Lanka,Iraq
+48,India,Iraq
+49,Iran,Iraq
+50,Afghanistan,Iraq
+51,"Korea, South",Kuwait
+52,Malaysia,Kuwait
+53,Cambodia,Kuwait
+54,United Arab Emirates,Kuwait
+55,Philippines,Kuwait
+56,Iran,Kuwait
+57,Taiwan*,Bahrain
+58,Nepal,Bahrain
+59,Kuwait,Bahrain
+60,Vietnam,Oman
+61,Cambodia,Oman
+62,Lebanon,Oman
+63,Israel,Oman
+64,Bahrain,Oman
+65,Philippines,Pakistan
+66,Iran,Pakistan
+67,Kuwait,Pakistan
+68,Bahrain,Pakistan
+69,Taiwan*,Qatar
+70,"Korea, South",Qatar
+71,Singapore,Qatar
+72,Sri Lanka,Qatar
+73,United Arab Emirates,Qatar
+74,Afghanistan,Qatar
+75,Kuwait,Qatar
+76,Nepal,Indonesia
+77,Japan,Indonesia
+78,United Arab Emirates,Indonesia
+79,Iran,Indonesia
+80,Iraq,Indonesia
+81,Pakistan,Indonesia
+82,Malaysia,Saudi Arabia
+83,Singapore,Saudi Arabia
+84,Japan,Saudi Arabia
+85,Sri Lanka,Saudi Arabia
+86,United Arab Emirates,Saudi Arabia
+87,Pakistan,Saudi Arabia
+88,Qatar,Saudi Arabia
+89,"Korea, South",Jordan
+90,Nepal,Bangladesh
+91,Afghanistan,Bangladesh
+92,Bahrain,Bangladesh
+93,Jordan,Bangladesh
+94,Singapore,Maldives
+95,Philippines,Maldives
+96,Oman,Maldives
+97,West Bank and Gaza,Kazakhstan
+98,Vietnam,Uzbekistan
+99,Cambodia,Uzbekistan
+100,Sri Lanka,Uzbekistan
+101,Israel,Uzbekistan
+102,Lebanon,Syria
+103,Turkey,Burma
+104,Bahrain,Yemen
+105,Pakistan,Yemen
