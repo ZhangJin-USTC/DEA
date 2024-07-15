@@ -58,7 +58,7 @@ print(result1[1])    # Estimated edges
 ```
 
 ## Real datasets
-We used two real datasets, the marks dataset [1] and the Sachs protein dataset [2].
+We used three real datasets, the marks dataset [1], the Sachs protein dataset [2], and the JHU CSSE COVID-19 dataset from [here](https://github.com/CSSEGISandData/COVID-19).
 
 ## References
 - [1] Bibby, J. M., Mardia, K. V., & Kent, J. T. (1979). **Multivariate analysis**. *Academic Press*.
