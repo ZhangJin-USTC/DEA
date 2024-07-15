@@ -1,4 +1,4 @@
-# DEA: *D*AG *E*stimation with *A*BESS 
+# DEA: **D**AG **E**stimation with **A**BESS 
 
 This is an `Python` implementation of the following paper:
 
