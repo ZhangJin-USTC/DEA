@@ -11,7 +11,7 @@ xxx
 
 ## Introduction
 
-DEA (also known as ABESS-DAG) is a new approach to combine variable selection methods (especially ABESS) with DAG learning. The biggest advantage of this method over other TOSAs (Topological Ordering Search Algorithms) is that there is no need to estimate the conditional variance to introduce additional error. In addition to the basic "vanilla" version of the method DEA (ABESS-DAG), we propose two different extensions. The first one is layer-by-layer learning algorithm DEAL (L-ABESS-DAG in our code), which is applicable in large-scale problems, and can significantly speed up the computation. The second one is DEAP (P-ABESS-DAG in our code), which is applicable to scenarios with known prior knowledge, and can integrate prior knowledge into the learning results and effectively improve the estimation results of DAG.
+DEA (**D**AG **E**stimation with **A**BESS, also known as ABESS-DAG) is a new approach to combine variable selection methods (especially ABESS) with DAG learning. The biggest advantage of this method over other TOSAs (Topological Ordering Search Algorithms) is that there is no need to estimate the conditional variance to introduce additional error. In addition to the basic "vanilla" version of the method DEA (ABESS-DAG), we propose two different extensions. The first one is layer-by-layer learning algorithm DEAL (L-ABESS-DAG in our code), which is applicable in large-scale problems, and can significantly speed up the computation. The second one is DEAP (P-ABESS-DAG in our code), which is applicable to scenarios with known prior knowledge, and can integrate prior knowledge into the learning results and effectively improve the estimation results of DAG.
 
 
 ## Requirements
