@@ -23,7 +23,7 @@ DEA (**D**AG **E**stimation with **A**BESS, also known as ABESS-DAG) is a new ap
 
 ## Contents
 - `abessdag_fast.py` Main function to run our algorithm, see demo below
-- `abessdag-utils.py` Some helper functions to simulate data and evaluate results
+- `abessdag_utils.py` Some helper functions to simulate data and evaluate results
 - Real datasets
 - Simulations
 
@@ -31,7 +31,7 @@ DEA (**D**AG **E**stimation with **A**BESS, also known as ABESS-DAG) is a new ap
 First we generate a *ER* graph with 8 nodes and 16 expected edges. The graph weight parameters are uniformly distributed from $[-1,-0.5]\cup[0.5,1]$ with $\sigma=1$
 
 ```python
-from abessdag-utils import graphgen,simdag
+from abessdag_utils import graphgen,simdag
 G = graphgen(p=8, q=2, min_w=0.5, max_w=1, graph_type="ER")
 data = simdag(n=1000, graph=G, sd=1, error_type="Gaussian")
 ```
