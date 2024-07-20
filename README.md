@@ -22,7 +22,7 @@ DEA (**D**AG **E**stimation with **A**BESS, also known as ABESS-DAG) is a new ap
 - Library `networkx`
 
 ## Contents
-- `abessdag.py` Main function to run our algorithm, see demo below
+- `abessdag_fast.py` Main function to run our algorithm, see demo below
 - `abessdag-utils.py` Some helper functions to simulate data and evaluate results
 - Real datasets
 - Simulations
@@ -38,17 +38,17 @@ data = simdag(n=1000, graph=G, sd=1, error_type="Gaussian")
 
 Then, we can apply our algorithm on the data and learn the structure of DAG.
 ```python
-from abessdag import abessdag
-result1 = abessdag(data)    # Vanilla ABESS-DAG
-result2 = abessdag(data, nu=0.5)    # Layer-by-layer ABESS-DAG
+from abessdag_fast import abessdag
+result1 = abessdag(data)    # Vanilla ABESS-DAG (also known as DEA algorithm)
+result2 = abessdag(data, nu=0.5)    # Layer-by-layer ABESS-DAG (also known as DEAL algorithm)
 ```
 
-We can introduce a priori knowledge sets to improve the estimation.
+We can introduce prior knowledge sets to improve the estimation.
 ```python
 kset = pd.DataFrame({"Cause":['X0','X3'],"Effect":['X2','X6']})
 weak_kset = pd.DataFrame({"Cause":['X5','X6','X7','X0','X1','X5'],"Effect":['X0','X1','X2','X6','X0','X4']})
 result3 = abessdag(data, kset=kset)    # ABESS-DAG with knowledge set
-result4 = abessdag(data, kset=kset, wkset=weak_kset)    # ABESS-DAG with strong and weak knowledge sets
+result4 = abessdag(data, kset=kset, wkset=weak_kset)    # ABESS-DAG with strong and weak knowledge sets (DEAP algorithm)
 ```
 
 Check outputs
@@ -58,11 +58,13 @@ print(result1[1])    # Estimated edges
 ```
 
 ## Real datasets
-We used three real datasets, the marks dataset [1], the Sachs protein dataset [2], and the JHU CSSE COVID-19 dataset from [here](https://github.com/CSSEGISandData/COVID-19).
+We used three real datasets, the marks dataset [1], the Sachs protein dataset [2], and the JHU CSSE COVID-19 dataset from [here](https://github.com/CSSEGISandData/COVID-19). The codes can be found in realdata folder.
 
 ## References
 - [1] Bibby, J. M., Mardia, K. V., & Kent, J. T. (1979). **Multivariate analysis**. *Academic Press*.
 - [2] Sachs, K., Perez, O., Pe'er, D., Lauffenburger, D. A., & Nolan, G. P. (2005). **Causal protein-signaling networks derived from multiparameter single-cell data**. *Science*, 308(5721), 523-529.
 
+<!--
 - We generate data from Gaussian process models through the `RESIT` code, from [here](https://staff.fnwi.uva.nl/j.m.mooij/code/codeANM.zip)
 - Original equal variance code for linear models is from [here](https://github.com/WY-Chen/EqVarDAG)
+-->
